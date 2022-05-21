@@ -1,0 +1,13 @@
+N 5
+P 50
+T 1
+L 30
+seed 5
+vi 1.0
+omg0 1.0
+g 0.0
+s 0.5
+h 0.005
+skip 20000
+step 5000000
+den_num 200
