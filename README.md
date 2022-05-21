@@ -1,2 +1,8 @@
-# PIMD-Pro
-Path integral molecular dynamics
+# PIMD Pro
+
+A more pro version of path integral molecular dynamics.
+
+Run as 
+```
+./PIMD in.txt out.txt
+```
