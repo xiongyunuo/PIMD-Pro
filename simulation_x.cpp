@@ -561,7 +561,7 @@ void XSimulation::NormalizeStat() {
   stat.T /= count;
   int i;
   for (i = 0; i < stat.num; ++i)
-    stat.den[i] /= (i+0.5)*incre;
+    stat.den[i] /= (i+0.5)*incre*(i+0.5)*incre;
   XNum norm = 0;
   for (i = 0; i < stat.num; ++i)
     norm += stat.den[i]*incre;
